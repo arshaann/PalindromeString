@@ -1,9 +1,9 @@
-name = "arshan"
+name = input("Enter a name: ")
 temp = ""
 
 
-for i in range(len(name)):
-	temp = temp +i
+for i in name:
+	temp+=i
 
 if temp == name:
 	print("Name is a palindrome")
